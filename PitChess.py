@@ -491,7 +491,7 @@ while isrunning:
             from robot1 import *
         else:
             from robot2 import *
-        if robotmode: robot = cv2.imread(fr"images\robotthinking{robotmode}.png")
+        if robotmode: robot = cv2.imread(fr"images\robotthinking.png")
     #继续游戏：读取存档，turn=True表示当前轮到先手，反之轮到后手
 
     if gamemode == 3:
@@ -508,7 +508,7 @@ while isrunning:
         b1 = m
         p2 = [n - 1, n - 1]
         b2 = m + 1
-        robot = cv2.imread(fr"images\robotthinking{robotmode}.png")
+        robot = cv2.imread(fr"images\robotthinking.png")
         if robotturn == 2:
             usingrobot = [True, False]
         else:
